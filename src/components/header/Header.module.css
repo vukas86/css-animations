@@ -1,0 +1,34 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 2px solid black;
+  background-color: aliceblue;
+  align-items: center;
+}
+
+.wrapper a {
+  text-decoration: none;
+}
+
+.logoImg {
+  height: 50px;
+}
+
+.rightSide {
+  display: flex;
+  justify-items: center;
+}
+
+.rightSide a {
+  margin-right: 10px;
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.rightSide a:hover {
+  text-decoration: underline red;
+}

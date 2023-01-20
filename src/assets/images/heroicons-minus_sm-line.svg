@@ -1,0 +1,74 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     class="svg-snoweb svg-theme-light"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     viewBox="0 0 100 100"
+     preserveAspectRatio="xMidYMid meet"
+>
+<defs>
+    <style>
+        
+            
+            
+            
+        
+
+        .svg-fill-primary {
+            fill: #B5B7BB;
+        }
+
+        .svg-fill-secondary {
+            fill: #65CDAE;
+        }
+
+        .svg-fill-tertiary {
+            fill: #E5E7EB;
+        }
+
+        .svg-stroke-primary {
+            stroke: #B5B7BB;
+        }
+
+        .svg-stroke-secondary {
+            stroke: #65CDAE;
+        }
+
+        .svg-stroke-tertiary {
+            stroke: #E5E7EB;
+        }
+    </style>
+</defs>
+    
+
+<clipPath id="clip-path-202301-1921-0607-7090e177-095b-4b37-9aa6-fb2d7d1086e0">
+    <rect x="0" y="95" width="100" height="5"></rect>
+</clipPath>
+<g clip-path="url(#clip-path-202301-1921-0607-7090e177-095b-4b37-9aa6-fb2d7d1086e0)">
+    <rect 
+            class="svg-fill-tertiary"
+            x="0"
+            y="95"
+            width="100"
+            height="5">
+    </rect>
+    <g transform="translate(0, 50)">
+        <circle 
+                class="svg-fill-secondary svg-builder-circle"
+                cx="50"
+                cy="50"
+                r="50">
+        </circle>
+    </g>
+</g>
+
+    <g transform="translate(20.00, 20.00) scale(0.60, 0.60)">
+        
+    <path d="M82.1,50H17.9" fill="none" class="svg-stroke-primary" stroke-linecap="round" stroke-linejoin="round"
+      stroke-width="8"/>
+
+
+    </g>
+</svg>

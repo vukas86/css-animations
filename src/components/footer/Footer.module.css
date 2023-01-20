@@ -1,0 +1,49 @@
+.container {
+  margin-top: 25px;
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.leftPart {
+  display: flex;
+  flex-direction: column;
+}
+.rightPart {
+  margin-top: 25px;
+}
+
+.rightPart div {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.rightPart div span {
+  margin-left: 15px;
+}
+
+.iconsRight {
+  width: 40px;
+}
+
+.socialIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.iconsLeft {
+  width: 25px;
+  border: 1px solid black;
+  padding: 6px;
+  background-color: rgba(74, 72, 72, 0.627);
+  margin-right: 10px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.logo {
+  height: 150px;
+}

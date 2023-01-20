@@ -1,0 +1,62 @@
+body {
+  background-image: linear-gradient(
+    to left,
+    #3fc16d,
+    #00b396,
+    #00a1b4,
+    #008bbe,
+    #0072b2,
+    #0066af,
+    #0359ab,
+    #1d4ba4,
+    #1846ae,
+    #1d40b8,
+    #2a38c0,
+    #3a2cc6
+  );
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.docImg {
+  width: 400px;
+}
+
+.wrapper {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 20px;
+}
+form div input {
+  line-height: 20px;
+  padding: 5px;
+  color: grey;
+  border-radius: 3px;
+}
+
+.btn {
+  border: none;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
