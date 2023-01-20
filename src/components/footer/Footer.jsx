@@ -13,7 +13,7 @@ import logoImg from "../../assets/logos/Happy_Smile-logos_transparent-removebg-p
 function Footer() {
   return (
     <>
-      <div className={styles.container}>
+      <div className={styles.container} id="aboutUs">
         <div className={styles.leftPart}>
           <img src={logoImg} alt="logo" className={styles.logo} />
           <div className={styles.socialIcons}>

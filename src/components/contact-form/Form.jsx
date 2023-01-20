@@ -1,24 +1,45 @@
 import React from "react";
+
+import { useState } from "react";
+
 import styles from "./Form.module.css";
 import docsImg from "../../assets/images/docs.png";
 
 function Form() {
+  const [messge, setMessage] = useState("Initial");
+
+  const handleChange = (event) => {
+    setMessage(event.target.value);
+    console.log(event.target.value);
+  };
   return (
     <>
-      <div className={styles.container}>
+      <div className={styles.container} id="contactForm">
         <h1>Lets Stay in Touch</h1>
         <div className={styles.wrapper}>
           <div>
             <img src={docsImg} alt="art" className={styles.docImg} />
           </div>
-          <form action="submit.php" enctype="text/plain" target="_blank">
+          <form>
             <div>
               <label htmlFor="fname">First name:</label>
-              <input type="text" id="fname" name="fname" value="John" />
+              <input
+                type="text"
+                id="fname"
+                name="fname"
+                value="John"
+                onChange={handleChange}
+              />
             </div>
             <div>
               <label htmlFor="lname">Last name:</label>
-              <input type="text" id="lname" name="lname" value="Smith" />
+              <input
+                type="text"
+                id="lname"
+                name="lname"
+                value="Smith"
+                onChange={handleChange}
+              />
             </div>
             <div>
               <label htmlFor="email">Email:</label>
@@ -27,6 +48,7 @@ function Form() {
                 id="email"
                 name="email"
                 value="youremail@example.com"
+                onChange={handleChange}
               />
             </div>
             <div>
@@ -37,7 +59,12 @@ function Form() {
               ></textarea>
             </div>
             <div>
-              <input type="submit" value="Submit" className={styles.btn} />
+              <input
+                type="submit"
+                value="Submit"
+                className={styles.btn}
+                onChange={handleChange}
+              />
             </div>
             <br></br>
             <br></br>

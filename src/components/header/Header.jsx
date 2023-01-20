@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-scroll";
+
 import styles from "./Header.module.css";
 import logoImg from "../../assets/logos/Happy_Smile-logos_transparent-removebg-preview.png";
 
@@ -13,9 +15,33 @@ function Header() {
         </div>
         <div className={styles.rightSide}>
           <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Projects</a>
-          <a href="#">Contact Me</a>
+          <Link
+            to="aboutUs"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            About
+          </Link>
+          <Link
+            to="ourProjects"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Projects
+          </Link>
+          <Link
+            to="contactForm"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Contact Me
+          </Link>
         </div>
       </div>
     </>

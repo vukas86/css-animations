@@ -37,3 +37,21 @@
   height: 90px;
   width: 80px;
 }
+
+@keyframes scaleTitle {
+  0% {
+    transform: scale(0.2);
+    color: red;
+  }
+  85% {
+    transform: scale(1.1);
+    color: white;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.title {
+  animation: scaleTitle 2s ease-in 0.2s both;
+}

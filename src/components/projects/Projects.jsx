@@ -5,9 +5,12 @@ import benjaminImg from "../../assets/images/benjamin.jpg";
 import carolinaImg from "../../assets/images/carolina.jpg";
 
 function Projects() {
+  function reveal() {
+    const reveals = document.querySelectorAll(".reveal");
+  }
   return (
     <>
-      <div className={styles.wrapper}>
+      <div className={styles.wrapper} id="ourProjects">
         <h1>Our Projects</h1>
         <div className={styles.projectContainer}>
           <div className={styles.prR}>

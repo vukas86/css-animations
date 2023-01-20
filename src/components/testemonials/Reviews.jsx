@@ -12,7 +12,7 @@ function Reviews() {
   return (
     <>
       <div className={styles.wrapper}>
-        <h1>What our clients say about us</h1>
+        <h1 className={styles.title}>What our clients say about us</h1>
         <div className={styles.container}>
           <div className={styles.client}>
             <img src={annImg} alt="icon" className={styles.clIcon} />
